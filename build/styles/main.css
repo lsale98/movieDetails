@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav #navbarSupportedContent .nav-link:hover {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #1197e6;
+}
+
+nav #navbarSupportedContent #form-btn button {
+  color: #1197e6;
+  border: 2px solid #1197e6;
+}
+
+nav #navbarSupportedContent #form-btn button:nth-child(1):hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  background-color: #1197e6;
+}
+
+nav #navbarSupportedContent #form-btn button:nth-child(2) {
+  color: white;
+  background-color: #1197e6;
+}
+
+nav #navbarSupportedContent #form-btn button:nth-child(2):hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-color: white;
+}
+
+#banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 6;
+}
+
+#banner .banner-text h3 {
+  margin-bottom: 30px;
+}
+
+#banner .banner-text h3 span {
+  color: #1197e6;
+}
+
+#banner .banner-text .banner-btn {
+  display: inline-block;
+  color: #1197e6;
+  border: 2px solid #1197e6;
+  padding: 8px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#banner .banner-text .banner-btn span {
+  width: 87px;
+  height: 42px;
+  background-color: #1197e6;
+  position: absolute;
+  top: -2px;
+  left: -101%;
+  z-index: -1;
+}
+
+#banner .banner-text .banner-btn:hover {
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+  color: white;
+}
+
+#banner .banner-text .banner-btn:hover span {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  left: 0;
+}
+
+#banner .layer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(17, 152, 230, 0.151);
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=main.css.map */

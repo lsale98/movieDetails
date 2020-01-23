@@ -1,0 +1,27 @@
+nav {
+    #navbarSupportedContent {
+        .nav-link:hover {
+            transition: all 0.2s ease-in;
+            color: $main-color;
+        }
+        #form-btn {
+            button {
+                color: $main-color;
+                border: 2px solid $main-color;
+                &:nth-child(1):hover {
+                    transition: all 0.3s ease-in-out;
+                    color: white;
+                    background-color: $main-color;
+                }
+                &:nth-child(2) {
+                    color: white;
+                    background-color: $main-color;
+                    &:hover {
+                        transition: all 0.3s ease-in-out;
+                        border-color: white;
+                    }
+                }
+            }
+        }
+    }
+}
